@@ -1,4 +1,4 @@
-# A Home Assistant Addon that allows to scan directly from a hp scanner to ha
+# A Home Assistant Add-on that allows to scan directly from a hp scanner to ha
 
 This plugin is just a wrapper for the docker container from: https://github.com/manuc66/node-hp-scan-to
 
@@ -17,12 +17,12 @@ Required <br>
 Default: 192.168.1.1 <br>
 The IP of the printer.
 
-### pattern <br>
+### pattern: <br>
 Required <br>
 Default: "scan_"dd.mm.yyyy_hh:MM:ss<br>
 The pattern uses for the files.
 
-## Highly realted git repos
-https://github.com/manuc66/node-hp-scan-to
-https://github.com/tux2000/home-assistant-addons/tree/master/paperless-ngx
-https://github.com/TheBestMoshe/home-assistant-addons/tree/master/paperless-ngx
+## Highly related repos
+https://github.com/manuc66/node-hp-scan-to <br>
+https://github.com/tux2000/home-assistant-addons/tree/master/paperless-ngx <br>
+https://github.com/TheBestMoshe/home-assistant-addons/tree/master/paperless-ngx <br>
