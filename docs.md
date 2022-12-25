@@ -15,4 +15,5 @@ The IP of the printer.
 
 pattern
 Required
+Default: "scan_"dd.mm.yyyy_hh:MM:ss
 The pattern uses for the files.

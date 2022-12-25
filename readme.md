@@ -4,15 +4,25 @@ This plugin is just a wrapper for the docker container from: https://github.com/
 
 The configuration options: 
 
-target: /share/paperless/consume
+### target: 
 Required
+
+Default: /share/paperless/consume
+
 Where scanned documents will be stored. 
 Could be on /media or /share. Could also the consume directory of a paperless-ngx (/share/paperless/consume) add-on.
 
-ip: 192.168.1.1
-Required
+###  ip: <br>
+Required <br>
+Default: 192.168.1.1 <br>
 The IP of the printer.
 
-pattern
-Required
+### pattern <br>
+Required <br>
+Default: "scan_"dd.mm.yyyy_hh:MM:ss<br>
 The pattern uses for the files.
+
+## Highly realted git repos
+https://github.com/manuc66/node-hp-scan-to
+https://github.com/tux2000/home-assistant-addons/tree/master/paperless-ngx
+https://github.com/TheBestMoshe/home-assistant-addons/tree/master/paperless-ngx
