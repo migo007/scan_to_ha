@@ -1,0 +1,24 @@
+---
+name: Scan to Home Assitant (HP)
+version: 0.0.1
+slug: scan_to_ha
+description: Supplies a target for HP scanners to scan to.
+startup: application
+arch:
+  - armhf
+  - armv7
+  - aarch64
+  - amd64
+  - i386
+init: false
+options:
+  target: /share/paperless/consume
+  ip: 192.168.1.1
+  pattern: '"scan_"dd.mm.yyyy_hh:MM:ss'
+schema:
+  ip: str
+  target: str
+  pattern: str
+map:
+  - media:rw
+  - share:rw
